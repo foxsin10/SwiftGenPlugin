@@ -1,0 +1,8 @@
+xcassets:
+  inputs:
+    - Sources/PluginTest/Media.xcassets
+  outputs:
+    - templateName: swift5
+      output: ${DERIVED_SOURCES_DIR}/Assets.swift
+      params:
+        publicAccess: true
